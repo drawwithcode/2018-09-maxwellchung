@@ -17,7 +17,7 @@ var mappa = new Mappa('MapboxGL', 'pk.eyJ1IjoidmFsZXJpb2FuZHJpbmkiLCJhIjoiY2pvcX
 var options = {
   lat : pakistanLat,
   lng : pakistanLon,
-  zoom: 2,
+  zoom: 1,
   pitch: 15
 }
 function preload(){
