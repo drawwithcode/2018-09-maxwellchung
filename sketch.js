@@ -24,7 +24,7 @@ function preload(){
   // put preload code here
   myLoc = getCurrentPosition();
 }
-function setup() {
+   function setup() {
   // put setup code here
   canvas = createCanvas(windowWidth, windowHeight);
   myMap = mappa.tileMap(options);
@@ -32,7 +32,7 @@ function setup() {
   var distance1 = calcGeoDistance(myLoc.latitude, myLoc.longitude, pakistanLat, pakistanLon, "km");
   console.log(distance1);
   var distance2 = calcGeoDistance(myLoc.latitude, myLoc.longitude, qatarLat, qatarLon, "km");
-  console.log(distance2);
+  console.log(dista nce2);
   var distance3 = calcGeoDistance(myLoc.latitude, myLoc.longitude, afghanistanLat, afghanistanLon, "km");
   console.log(distance3);
   var distance4 = calcGeoDistance(myLoc.latitude, myLoc.longitude, bangladeshLat, bangladeshLon, "km");
@@ -41,11 +41,11 @@ function setup() {
   console.log(distance5);
 }
 
-function draw() {
-  // put drawing code here
-clear();
-fill('black')
-rect(55,85,990,55)
+ function draw() {
+
+ clear();
+ fill('black')
+ rect(55,85,990,55)
 fill('white');
 textSize(55);
 text('Ongoing armed conflicts',65, 133);
